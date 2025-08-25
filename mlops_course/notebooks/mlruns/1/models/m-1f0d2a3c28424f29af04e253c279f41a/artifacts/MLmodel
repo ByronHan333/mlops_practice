@@ -1,0 +1,22 @@
+artifact_path: /Users/byronhan/mlops_course/notebooks/mlruns/1/models/m-1f0d2a3c28424f29af04e253c279f41a/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.11
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+mlflow_version: 3.3.1
+model_id: m-1f0d2a3c28424f29af04e253c279f41a
+model_size_bytes: 3104
+model_uuid: m-1f0d2a3c28424f29af04e253c279f41a
+prompts: null
+run_id: fc0816d09c9947c0bf39f40c78af8103
+utc_time_created: '2025-08-25 01:55:38.415032'
